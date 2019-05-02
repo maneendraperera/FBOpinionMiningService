@@ -1,0 +1,149 @@
+div.container {
+	width: 100%;
+	border: 1px solid gray;
+}
+
+header {
+	padding: 1em;
+	color: black;
+	background-color: #73C1E6;
+	clear: left;
+	text-align: center;
+}
+
+footer {
+	padding: 1em;
+	color: black;
+	background-color: #73C1E6;
+	clear: left;
+	text-align: center;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+}
+
+nav {
+	float: left;
+	max-width: 160px;
+	margin: 0;
+	padding: 1em;
+}
+
+nav ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+nav ul a {
+	text-decoration: none;
+}
+
+article {
+	margin-left: 170px;
+	border-left: 1px solid gray;
+	padding: 1em;
+	overflow: hidden;
+}
+
+.logoutspan {
+	float: right;
+	font-size: 20px;
+}
+
+.backspan {
+	float: left;
+	font-size: 20px;
+	visibility: hidden;
+}
+
+.divlabel {
+	margin-top:3%;
+	width: 50%;
+	text-align: center;
+	font-size: 20px;
+	 margin: 0 auto; 
+	border-radius: 5px;
+    background-color: #f2f2f2;
+}
+
+.button_class {
+	background-color: #73C1E6;
+	color: black;
+	padding: 14px 20px;
+	margin: 8px 0;
+	border: none;
+	cursor: pointer;
+	width: 20%;
+	font-weight: bold;
+	font-size: 20px;
+}
+
+.msg_display_block {
+	height: 20px;
+	display: block;
+	font-weight: bold;
+	color:#0000ff;
+}
+
+table {
+    font-family: arial, sans-serif;
+    border-collapse: collapse;
+    width: 100%;
+}
+
+
+td{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+
+}
+
+th{
+    border: 1px solid #dddddd;
+    text-align: left;
+    padding: 8px;
+background-color : green;
+
+}
+
+tr:nth-child(even) {
+    background-color: #dddddd;
+}
+
+.error_msg_label{
+	height: 20px;
+	display: block;
+	font-weight: bold;
+	color: red;
+}
+
+input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    width: 50%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+.resultdiv{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
